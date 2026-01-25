@@ -3,7 +3,7 @@
 set -e
 
 # Configuration variables
-MASTER_IP="172.16.1.14"
+MASTER_IP="192.168.1.99"
 POD_NETWORK_CIDR="10.244.0.0/16"
 CRI_SOCKET="unix:///var/run/cri-dockerd.sock"
 
